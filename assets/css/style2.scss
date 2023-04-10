@@ -1,0 +1,17 @@
+$dark-purple: #1d0221;
+
+$title-color: #dd4e66;
+
+@mixin title-shadow {
+
+    text-shadow: .50rem .50rem $dark-purple;
+
+}
+
+.intro__title {
+
+    color: $title-color;
+
+    @include title-shadow;
+
+}
